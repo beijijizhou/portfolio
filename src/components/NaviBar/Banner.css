@@ -1,0 +1,30 @@
+.banner {
+    display: grid;
+    grid-template-columns: 30% repeat(5, 1fr);
+    align-items: center;
+    background-color: transparent;
+    position:fixed;
+    top:0;
+    width:100%;
+    z-index:100;
+    bottom: auto;
+  }
+  
+  .username {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  
+  .nav-button {
+    background-color: transparent;
+    color: black;
+    border: none;
+    padding: 10px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .nav-button:hover {
+    color: purple;
+  }
+  
